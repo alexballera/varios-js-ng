@@ -1,0 +1,14 @@
+.listado {
+  &-item {
+    cursor: pointer;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 4px;
+    &:hover {
+      background-color: #f4f4f4;
+    }
+    &.active {
+      background-color: #d8d5d5;
+    }
+  }
+}

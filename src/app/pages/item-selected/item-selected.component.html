@@ -1,0 +1,19 @@
+<h2>
+  <button type="button"
+          class="btn btn-primary"
+          [routerLink]="['/home']"
+  >
+    <i class="fas fa-arrow-left"></i>
+  </button>
+  Item selected
+</h2>
+<hr>
+
+<ul class="listado">
+  <li [ngClass]="{'listado-item': true, 'active': item.selected}"
+      (click)="handleSelectItem(i)"
+      *ngFor="let item of lists, let i = index"
+  >
+      {{item.title}}
+  </li>
+</ul>

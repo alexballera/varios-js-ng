@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "varios-js-ng"
+    }
+  },
+  "defaultProject": "varios-js-ng",
+  "cli": {
+    "analytics": "42a2c262-a462-47d8-8471-e5c1ba869c33"
+  }
 }
